@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MuMuSoc</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mutantsProjectCss.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="heading logos">
+  <img src="Mutantslogo.jpg" alt="MUTANTS_LOGO" style="width:200px; height:130px" >
+  </div>
+  <div class="heading text">
+    <h1 style="line-height:1px">MUTANTS</h1>
+    <h3>Music Society</h3>
+    <a style="line-height:2px">Maharaja Surajmal Institute of Technology</a>
+  </div>
+</div>
+ 
+
+<div class="topnav">
+  <a href="mutantsHome.html">Home</a>
+  <a href="mutantsAbout.html" style="background-color:AliceBlue;color:black">About</a>
+  <a href="mutantsContactUs.html">Contact Us</a>
+  <a href="mutantsGallery.html">Gallery</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <ul>
+     <li><h2 style="text-align:center;background-color:DarkGoldenRod;padding:16px 0px">Indian</h2></li>
+     <li><a href="#">Member</a></li>
+     <li><a href="#">Achievements</a></li>
+     <li><a href="#">Events</a></li>
+    </ul>
+  </div>
+  <div class="column middle">
+    <h2>Mukul Karega</h2>
+  </div>
+  <div class="column side">
+    <ul>
+     <li><h2 style="text-align:center;background-color:DarkGoldenRod;padding:16px 0px">Western</h2></li>
+     <li><a href="#">Member</a></li>
+     <li><a href="#">Achievements</a></li>
+     <li><a href="#">Events</a></li>
+    </ul>
+    
+
+  </div>
+</div>
+
+<div class="footer">
+  <a type="button"id="myBtn"style="cursor:pointer;">Meet The Team</a>
+
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+     <div class="modal-header">
+        <button type="button"class="close">Close</button>
+        <h3 class="modal-title">Meet The Team</h3><hr><br>
+     </div>
+     <div class="modal-body">
+            <center>
+              <img src="Me.jpg"height="200"width="200"style="border-radius:100%;object-fit:cover">
+              <p><b>Pooja Verma</b> ECE (2016-2020)</p>
+            </center>			  
+            <center>
+			  <img src="Mukul.jpg"height="200"width="200"style="border-radius:100%;object-fit:cover">
+              <p><b>Mukul Sharma</b> ECE (2016-2020)</p>
+            </center>
+          </div>
+     </div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+  
+</body>
+</html>
